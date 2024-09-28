@@ -26,7 +26,7 @@ st.write("""
 """)
 
 # **Mengimpor Dataset**
-main_data = pd.read_csv('main_data.csv')
+main_data = pd.read_csv("./dashboard/main_data.csv")
 
 # Menampilkan data awal
 st.title('Analisis Data Penyewaan Sepeda')
