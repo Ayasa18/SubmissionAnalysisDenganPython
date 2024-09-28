@@ -35,16 +35,16 @@ the two-year historical log corresponding to years 2011 and 2012 from Capital Bi
 publicly available in http://capitalbikeshare.com/system-data. We aggregated the data on two hourly and daily basis and then 
 extracted and added the corresponding weather and seasonal information. Weather information are extracted from http://www.freemeteo.com. 
 
-Dicoding Project: Belajar Analisis Data Dengan Python
-Cara Menjalankan Dashboard
-Unduh file terlebih dahulu dengan menjalankan di CMD:
+##Dicoding Project: Belajar Analisis Data Dengan Python
+#Cara Menjalankan Dashboard
+#Unduh file terlebih dahulu dengan menjalankan di CMD:
 
 bash
 Copy code
 git clone (url repository)
 atau langsung saja diunduh melalui Code > Download ZIP. Ekstrak file tersebut.
 
-Setup environment Anda dengan modul Python seperti NumPy, Pandas, dll. Contoh:
+#Setup environment Anda dengan modul Python seperti NumPy, Pandas, dll. Contoh:
 
 bash
 Copy code
@@ -53,7 +53,7 @@ conda activate main-ds
 pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
 Buka file submission yang sudah diunduh, lalu salin path filenya untuk dibuka melalui CMD.
 
-Jalankan Streamlit app: Jika sudah berada di direktori CMD tempat di mana file dashboard berada, jalankan:
+#Jalankan Streamlit app: Jika sudah berada di direktori CMD tempat di mana file dashboard berada, jalankan:
 
 bash
 Copy code
